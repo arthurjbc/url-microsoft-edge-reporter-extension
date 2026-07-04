@@ -1,0 +1,10 @@
+{
+  "manifest_version" : 3,
+  "name" : "Edge url collector",
+  "version" : "1.0.0",
+  "description": "Reporta o domínio da aba ativa do Edge ao coletor local do Watchtower via native messaging.",
+  "background" : {
+    "service_worker" : "background.js"
+  },
+  "permissions" : ["tabs", "nativeMessaging", "idle"]
+}
